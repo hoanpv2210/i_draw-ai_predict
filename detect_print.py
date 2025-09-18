@@ -16,6 +16,7 @@ hands = mp_hand.Hands(
 )
 cap = cv2.VideoCapture(0) # khoi tao camera
 ten = ["apple","book","bowtie","candle","cup","door","envelope","eyeglass","guitar","hammer","hat","ice cream","leaf","pants","scissors","star","t-shirt"]
+#ten = ["0","1","2","3","4","5","6","7","8","9"];
 class Main():
     def __init__(self):
         self.cx_min = 640
